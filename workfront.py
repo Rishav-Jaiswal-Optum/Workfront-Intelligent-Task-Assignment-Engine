@@ -82,7 +82,7 @@ def get_user_available_hours(user_id):
         print(f"error: {str(e)}")
 
 # Update Task Assignment
-def updateAssigment(task,user):
+def updateAssignment(task,user):
     
     if task.get("primaryAssignment"):
         try:
